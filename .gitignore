@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.pkl
+*.joblib
+*.npy
+*.pth
+*.pt
+*.h5
+*.pb
+*.onnx
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.expo/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+
+
+# Expo
+.expo/
+.expo-shared/
