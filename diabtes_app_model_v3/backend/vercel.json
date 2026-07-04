@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "ensemble_api.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "ensemble_api.py"
+    }
+  ]
+}
