@@ -16,7 +16,8 @@ from medical_thresholds import calculate_medical_risk, combine_with_ml
 # ==========================================================
 # PATHS
 # ==========================================================
-MODELS_DIR = r"C:\Users\Ruhamah\Desktop\Diabetes risk app\diabtes_app_model_v3\models"
+import os
+MODELS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "models")
 
 # ==========================================================
 # INITIALIZE FASTAPI

@@ -92,7 +92,7 @@ class EnsembleModel:
 
 # For testing
 if __name__ == "__main__":
-    models_dir = r"C:\Users\Ruhamah\Desktop\Diabetes risk app\diabtes_app_model_v3\models"
+    models_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "models")
     model = EnsembleModel(models_dir)
     
     # Test with sample data (Your exact curl input)
